@@ -45,7 +45,7 @@
               onclick="document.location.hash='toform';return false;"
             >
               <picture
-                ><img alt="User profile icon" src="images/use-icon.png" />
+                ><img alt="User profile icon" src="images/other/use-icon.png" />
               </picture>
             </a>
             <button
@@ -55,7 +55,7 @@
               aria-label="Toggle menu"
             >
               <picture
-                ><img alt="Menu icon" src="images/burger-icon.png" />
+                ><img alt="Menu icon" src="images/other/burger-icon.png" />
               </picture>
             </button>
           </div>
@@ -72,8 +72,8 @@
         >
           <ul>
             <li><a href="#toform" @click="menuOpen = false">Παραγγελία</a></li>
-            <li><a href="#" @click="menuOpen = false">Πληροφορίες</a></li>
-            <li><a href="#" @click="menuOpen = false">Επαφή</a></li>
+            <li><a href="#product" @click="menuOpen = false">Προϊόν</a></li>
+            <li><a href="#contact" @click="menuOpen = false">Σχόλια</a></li>
           </ul>
         </nav>
       </div>
@@ -99,9 +99,14 @@
             onclick="document.location.hash='toform';return false;"
           >
             <picture>
+              <source
+                type="image/webp"
+                srcset="images/min-images/main-change-image.webp"
+              />
+
               <img
                 alt=""
-                src="images/main-change-image.png"
+                src="images/min-images/main-change-image.jpg"
                 class="image horizontal inL_992441"
               />
             </picture>
@@ -153,10 +158,13 @@
             onclick="document.location.hash='toform';return false;"
           >
             <picture>
-              <source type="image/webp" srcset="images/image15.webp" />
+              <source
+                type="image/webp"
+                srcset="images/min-images/image15-1.webp"
+              />
               <img
                 alt=""
-                src="images/image15.jpg"
+                src="images/min-images/image15.webp"
                 class="image horizontal inL_134144"
               />
             </picture>
@@ -229,7 +237,7 @@
             <picture>
               <img
                 alt=""
-                src="images/p1.jpg"
+                src="images/min-images/p1.jpg "
                 class="image horizontal inL_118418"
               />
             </picture>
@@ -270,10 +278,13 @@
             onclick="document.location.hash='toform';return false;"
           >
             <picture>
-              <source type="image/webp" srcset="images/image20.webp" />
+              <source
+                type="image/webp"
+                srcset="images/min-images/image20.webp"
+              />
               <img
                 alt=""
-                src="images/image20.jpg"
+                src="images/min-images/image20.webp"
                 class="image horizontal inL_582705"
               />
             </picture>
@@ -344,10 +355,13 @@
             onclick="document.location.hash='toform';return false;"
           >
             <picture>
-              <source type="image/webp" srcset="images/image14.webp" />
+              <source
+                type="image/webp"
+                srcset="images/min-images/image14.webp"
+              />
               <img
                 alt=""
-                src="images/image14.jpg"
+                src="images/min-images/image14.webp"
                 class="image horizontal inL_284283"
               />
             </picture>
@@ -381,7 +395,7 @@
             <picture
               ><img
                 alt=""
-                src="images/image13.gif"
+                src="images/gif/image13.gif"
                 class="image horizontal inL_750976"
             /></picture>
           </a>
@@ -448,7 +462,7 @@
             <picture
               ><img
                 alt=""
-                src="images/image18.gif"
+                src="images/gif/image18.gif"
                 class="image horizontal inL_142719"
             /></picture>
           </a>
@@ -535,10 +549,13 @@
             onclick="document.location.hash='toform';return false;"
           >
             <picture>
-              <source type="image/webp" srcset="images/image16.webp" />
+              <source
+                type="image/webp"
+                srcset="images/min-images/image16.webp"
+              />
               <img
                 alt=""
-                src="images/image16.jpg"
+                src="images/min-images/image16.webp"
                 class="image horizontal inL_45572"
               />
             </picture>
@@ -554,10 +571,13 @@
             onclick="document.location.hash='toform';return false;"
           >
             <picture>
-              <source type="image/webp" srcset="images/image3.webp" />
+              <source
+                type="image/webp"
+                srcset="images/min-images/image3.webp"
+              />
               <img
                 alt=""
-                src="images/image3.jpg"
+                src="images/min-images/image3.webp"
                 class="image horizontal inL_165281"
               />
             </picture>
@@ -582,7 +602,8 @@
             ενεργοποιώντας την καύση λίπους.
           </p>
           <a
-            href="#toform"
+            id="product"
+            href="#product"
             onclick="document.location.hash='toform';return false;"
           >
             <img
@@ -623,10 +644,13 @@
             onclick="document.location.hash='toform';return false;"
           >
             <picture>
-              <source type="image/webp" srcset="images/image12.webp" />
+              <source
+                type="image/webp"
+                srcset="images/min-images/image12.webp"
+              />
               <img
                 alt=""
-                src="images/image12.jpg"
+                src="images/min-images/image12.webp"
                 class="image horizontal inL_728285"
               />
             </picture>
@@ -737,7 +761,7 @@
               <picture>
                 <img
                   alt="Keto Coffee Premium product photo"
-                  src="images/pic8_90.jpg"
+                  src="images/other/pic8_90.jpg"
                 />
               </picture>
               <div class="product-label" bis_skin_checked="1">
@@ -786,7 +810,7 @@
             <picture>
               <img
                 alt=""
-                src="images/p2.jpg"
+                src="images/min-images/p2.jpg"
                 class="image horizontal inL_682104"
               />
             </picture>
@@ -1062,7 +1086,7 @@
           </div>
           <br />
           <br />
-          <h3 class="inL_293146">Σχόλια:</h3>
+          <h3 class="inL_293146" id="contact">Σχόλια:</h3>
           <div
             class="comments__kma inL_754515"
             style="margin-top: 0px"
@@ -1070,10 +1094,10 @@
           >
             <div class="mycomment add-comm" bis_skin_checked="1">
               <picture>
-                <source type="image/webp" srcset="images/a0.webp" />
+                <source type="image/webp" srcset="images/other/a0.webp" />
                 <img
                   alt="User avatar placeholder"
-                  src="images/a0.jpg"
+                  src="images/other/a0.webp"
                   class="mycomment-img"
                 />
               </picture>
@@ -1151,12 +1175,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1206,8 +1230,15 @@
                     αυτό δεν επηρεάζει την επιθυμία μου να παραμείνω υγιής και
                     σε φόρμα.<br />
                     <picture>
-                      <source type="image/webp" srcset="images/image19.webp" />
-                      <img alt="" src="images/image19.jpg" class="feed-img" />
+                      <source
+                        type="image/webp"
+                        srcset="images/min-images/image19.webp"
+                      />
+                      <img
+                        alt=""
+                        src="images/min-images/image19.webp"
+                        class="feed-img"
+                      />
                     </picture>
                   </p>
                   <a
@@ -1218,12 +1249,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1272,8 +1303,15 @@
                     προς τη συνειδητή κατανάλωση, που κάνει την πορεία μου προς
                     έναν υγιεινό τρόπο ζωής ακόμα πιο πολύτιμη.<br />
                     <picture>
-                      <source type="image/webp" srcset="images/image1.webp" />
-                      <img alt="" src="images/image1.jpg" class="feed-img" />
+                      <source
+                        type="image/webp"
+                        srcset="images/min-images/image1.webp"
+                      />
+                      <img
+                        alt=""
+                        src="images/min-images/image1-1.webp"
+                        class="feed-img"
+                      />
                     </picture>
                   </p>
                   <a
@@ -1284,12 +1322,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1344,12 +1382,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1394,12 +1432,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1449,12 +1487,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1497,8 +1535,15 @@
                     έχασα :( Ευχαριστώ πολύ για το ενδιαφέρον άρθρο. Απάντησα
                     στις ερωτήσεις της έρευνας και πήρα έκπτωση!<br />
                     <picture>
-                      <source type="image/webp" srcset="images/image22.webp" />
-                      <img alt="" src="images/image22.jpg" class="feed-img" />
+                      <source
+                        type="image/webp"
+                        srcset="images/min-images/image22.webp"
+                      />
+                      <img
+                        alt=""
+                        src="images/min-images/image22.jpg"
+                        class="feed-img"
+                      />
                     </picture>
                   </p>
                   <a
@@ -1509,12 +1554,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1564,12 +1609,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1614,12 +1659,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1664,12 +1709,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1712,12 +1757,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1763,8 +1808,15 @@
                     είναι η τέλεια λύση για ανθρώπους σαν εμένα! Το προτείνω σε
                     όλους!<br />
                     <picture>
-                      <source type="image/webp" srcset="images/image6.webp" />
-                      <img alt="" src="images/image6.jpg" class="feed-img" />
+                      <source
+                        type="image/webp"
+                        srcset="images/min-images/image6.webp"
+                      />
+                      <img
+                        alt=""
+                        src="images/min-images/image6.webp"
+                        class="feed-img"
+                      />
                     </picture>
                   </p>
                   <a
@@ -1775,12 +1827,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1829,8 +1881,15 @@
                     μου και έχω πάντα το Quickly Fitness στο χέρι. Κοίτα πώς
                     ήμουν πριν!<br />
                     <picture>
-                      <source type="image/webp" srcset="images/image9.webp" />
-                      <img alt="" src="images/image9.jpg" class="feed-img" />
+                      <source
+                        type="image/webp"
+                        srcset="images/min-images/image9.webp"
+                      />
+                      <img
+                        alt=""
+                        src="images/min-images/image9.webp"
+                        class="feed-img"
+                      />
                     </picture>
                   </p>
                   <a
@@ -1841,12 +1900,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1894,12 +1953,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1946,12 +2005,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -1996,12 +2055,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2047,12 +2106,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2098,12 +2157,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2152,12 +2211,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2204,12 +2263,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2257,12 +2316,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2311,8 +2370,15 @@
                     λες τίποτα! :) Συμβουλεύω όλους να το δοκιμάσουν! Ακόμα κι
                     αν χρειαστούν μόνο 2 εβδομάδες, θα δείτε αποτελέσματα!<br />
                     <picture>
-                      <source type="image/webp" srcset="images/image8.webp" />
-                      <img alt="" src="images/image8.jpg" class="feed-img" />
+                      <source
+                        type="image/webp"
+                        srcset="images/min-images/image8.webp"
+                      />
+                      <img
+                        alt=""
+                        src="images/min-images/image8.webp"
+                        class="feed-img"
+                      />
                     </picture>
                   </p>
                   <a
@@ -2323,12 +2389,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2376,12 +2442,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2425,8 +2491,15 @@
                     μερικά κιλά, πηγαίνουμε απλώς σε ένα μάθημα γυμναστικής
                     ταχύτητας και όλα επανέρχονται στο φυσιολογικό.<br />
                     <picture>
-                      <source type="image/webp" srcset="images/image21.webp" />
-                      <img alt="" src="images/image21.jpg" class="feed-img" />
+                      <source
+                        type="image/webp"
+                        srcset="images/min-images/image21.webp"
+                      />
+                      <img
+                        alt=""
+                        src="images/min-images/image21.webp"
+                        class="feed-img"
+                      />
                     </picture>
                   </p>
                   <a
@@ -2437,12 +2510,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2489,12 +2562,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2540,12 +2613,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2591,12 +2664,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2637,8 +2710,15 @@
                     Γρήγορη γυμναστική! Σταμάτησα να τρώω υπό πίεση και
                     πραγματικά έχασα 40 κιλά. θα συνεχίσω.<br />
                     <picture>
-                      <source type="image/webp" srcset="images/image2.webp" />
-                      <img alt="" src="images/image2.jpg" class="feed-img" />
+                      <source
+                        type="image/webp"
+                        srcset="images/min-images/image2.webp"
+                      />
+                      <img
+                        alt=""
+                        src="images/min-images/image2.webp"
+                        class="feed-img"
+                      />
                     </picture>
                   </p>
                   <a
@@ -2649,12 +2729,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2699,12 +2779,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2750,12 +2830,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2801,12 +2881,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2852,12 +2932,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2906,12 +2986,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -2958,12 +3038,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -3009,12 +3089,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -3066,12 +3146,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -3117,12 +3197,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -3174,12 +3254,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -3228,12 +3308,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -3278,12 +3358,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -3328,12 +3408,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -3380,8 +3460,15 @@
                     . Προσπαθώ να χάσω βάρος μετά την εγκυμοσύνη και τον θηλασμό
                     και έχω ήδη χάσει 7 κιλά.<br />
                     <picture>
-                      <source type="image/webp" srcset="images/image10.webp" />
-                      <img alt="" src="images/image10.jpg" class="feed-img" />
+                      <source
+                        type="image/webp"
+                        srcset="images/min-images/image10.webp"
+                      />
+                      <img
+                        alt=""
+                        src="images/min-images/image9.webp"
+                        class="feed-img"
+                      />
                     </picture>
                   </p>
                   <a
@@ -3392,12 +3479,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>
@@ -3442,12 +3529,12 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/i-heart.webp"
+                          srcset="images/other/i-heart.webp"
                         />
                         <img
                           alt=""
                           class="icon__small m-0"
-                          src="images/i-heart.png"
+                          src="images/other/i-heart.webp"
                         />
                       </picture>
                     </div>

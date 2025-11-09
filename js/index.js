@@ -234,6 +234,8 @@ for (let i = 0; i < linkNav.length; i++) {
         e.preventDefault();
         const w = window.pageYOffset;
         const hash = this.href.replace(/[^#]*(.*)/, "$1");
+        // Пропускаємо порожні хеші або тільки "#"
+        if (!hash || hash === '#') return;
         const targetElem = document.querySelector(hash);
         if (targetElem) {
             const t = targetElem.getBoundingClientRect().top;
@@ -324,7 +326,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Обробка відправки форми
         orderForm.addEventListener('submit', function (e) {
-            e.preventDefault(); // Зупиняємо стандартну відправку
+            e.preventDefault();
 
             // Перевіряємо валідність форми
             const isNameValid = nameInput ? validateName(nameInput) : true;

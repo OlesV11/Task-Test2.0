@@ -418,7 +418,7 @@ p i {
   display: block;
   position: absolute;
   bottom: -27px;
-  background: 0 0/100% 100% url(../images/quiz_header-bg.png) no-repeat;
+  background: 0 0/100% 100% url(../images/other/quiz_header-bg.png) no-repeat;
   height: 27px;
   width: 100%;
 }
